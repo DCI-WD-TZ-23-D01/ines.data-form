@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <form>
+    <fieldset>
+        <legend>Personal Data</legend>
+
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="e.g., 1234567890" required>
+
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street" required>
+
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode" pattern="[0-9]{5}" placeholder="e.g., 12345" required>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="writer">Writer</option>
+            <option value="other">Other</option>
+            <!-- Add more categories as needed -->
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+    </fieldset>
+</form>
+<form action="https://upset-seal-belt.cyclic.app/" target="_blank" method="post">
+<fieldset>
+    <legend>products</legend>
+<div>
+    <label>web Design:</label>
+   
+</div>
+<label>
+    <input type="radio" name="radioGroup" value="option1"> Individual
+</label>
+
+<label>
+    <input type="radio" name="radioGroup" value="option2"> Template
+</label>
+<div>
+    <label>Web Development:</label>
+</div>
+    <label>
+        <input type="checkbox" name="hTML&CSS"> hTML&CSS
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="JAVASCRIPT"> JAVASCRIPT
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="MongoDB"> MongoDB
+    </label>
+    <br>
+
+   
+
+
+<label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="writer">Writer</option>
+            <option value="other">Other</option>
+            
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        
+    </fieldset>
+
+
+<button type="button">Order our services</button>
+</form>
+
+</body>
+</html>
